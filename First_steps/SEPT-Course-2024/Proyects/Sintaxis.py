@@ -1,3 +1,18 @@
+# --- Argumentos de palabra clave
+## La función print() tiene dos argumentos de palabra clave que puedes usar para tus propósitos. El primero se llama end.
+print("Mi nombre es", "Python.", end=" ")
+print("Monty Python.")
+
+"""
+la función print() separa sus argumentos de salida con espacios. Este comportamiento también se puede cambiar.
+El argumento de palabra clave que puede hacer esto se denomina "sep" (como en separador).
+"""
+print("Mi", "nombre", "es", "Monty", "Python.", sep="-") # El argumento de "sep" también puede ser una cadena vacía.
+
+# Ambos argumentos de palabra clave pueden mezclarse en una invocación, como aquí en la ventana del editor.
+print("Mi", "nombre", "es", sep="_", end="*")
+print("Monty", "Python.", sep="*", end="*\n")
+
 # --- CONSTANTES
 """"
 En Python no existen las Constantes, para indicar que una variable
@@ -106,7 +121,3 @@ else:
 
 
     #### ---    https://www.youtube.com/watch?v=WWiic_r7O3Y     46:06 
-    
-
-
-
