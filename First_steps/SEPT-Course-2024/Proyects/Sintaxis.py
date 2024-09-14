@@ -120,4 +120,14 @@ else:
     print ("El valor de x es igual a 5")
 
 
+numero = int(input("Ingresa el número"))
+ 
+if numero > 0:
+    print("El número es positivo")
+elif numero < 0:
+    print("El número es negativo")
+else:
+    print("El número es igual a 0")
+
+
     #### ---    https://www.youtube.com/watch?v=WWiic_r7O3Y     46:06 
